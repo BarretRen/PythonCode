@@ -1,12 +1,13 @@
 def convertTostr(list):
-    str = ''
+    st = ''
     for i in range(len(list)):
         if i < (len(list) - 1):
-            str += list[i]
-            str +=","
+            st += list[i]
+            st += ","
         else:
-            str += "and "
-            str += list[i]
-    return str
+            st += "and "
+            st += list[i]
+    return st
+
 
 print(convertTostr(['apples', 'bananas', 'tofu', 'cats']))

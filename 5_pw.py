@@ -17,6 +17,6 @@ account = sys.argv[1]
 
 if account in PASSWORDS:
     pyperclip.copy(PASSWORDS[account])
-    print('password for' + account + 'copid to clipboard')
+    print('password for' + account + 'copy to clipboard')
 else:
     print('there si no account named' + account)

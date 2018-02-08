@@ -4,7 +4,7 @@
 import pyperclip
 
 #  text = pyperclip.paste()
-text ='Lists of animals\nLists of aquarium life\nLists of biologists by authorabbreviation\nLists of cultivars'
+text = 'Lists of animals\nLists of aquarium life\nLists of biologists by authorabbreviation\nLists of cultivars'
 # modify text
 lines = text.split('\n')
 text = ''

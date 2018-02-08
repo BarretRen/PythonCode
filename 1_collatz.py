@@ -1,12 +1,13 @@
 def collatz(number):
     if number % 2 == 0:
-        return number//2
+        return number // 2
     else:
-        return 3*number + 1
+        return 3 * number + 1
 
-str = input("输入一个整数:")
+
+st = input("输入一个整数:")
 try:
-    num = int(str)
+    num = int(st)
     print(num)
     num = collatz(num)
     while 1 != num:
